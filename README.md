@@ -1,17 +1,22 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+03/28/2021
 
 ### Project Title
-Replace the Project Title
+Udacity Programming for Data Science - Bike Share Project
 
 ### Description
-Describe what your project is about and what it does
+This Python script has been developed as part of the main project for the Programming for Data Science Nanodegree program. The script can be used to explore data related to bike share systems for three major US cities (Chicago, New York City, and Washington) for the first six month of the year 2017. It imports data from three respective csv files containing data for the particular cities and computes descriptive statistics from the data for a specific date the user can specify. Additionally, upon request lines of raw data can be provided.
 
 ### Files used
-Include the files used
+chicago.csv  
+new_york_city.csv  
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+In addition to the excellent Udacity documentation and instructor videos, I drew particurlarly on the following sources to complete this project:
+- stackoverflow.com
+- The Python Documentation
+- other web sources: geeksforgeeks.com, programiz.com, dataquest.io
 
