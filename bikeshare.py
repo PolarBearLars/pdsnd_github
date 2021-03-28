@@ -37,6 +37,7 @@ def get_filters():
         if month != 'all' and month not in months:
             print("\nSorry, we couldn't pick out which month you would like to see data for.\nLet's try again.")
         else:
+            print('Alright, {} it is!'.format(month))
             break
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
