@@ -24,7 +24,7 @@ def get_filters():
         city = input("Would you like to see data for Chicago, New York, or Washington?\n")
         city = city.lower()
         if city in ['chicago', 'new york', 'washington']:
-            print('Alright, let\'s have a look at {}'.format(city))
+            print('\nAlright, let\'s have a look at {}'.format(city))
             break
         else:
             print("\nSorry, we couldn't pick out which city you would like to see data for.\nLet's try again.")
@@ -37,7 +37,7 @@ def get_filters():
         if month != 'all' and month not in months:
             print("\nSorry, we couldn't pick out which month you would like to see data for.\nLet's try again.")
         else:
-            print('Alright, {} it is!'.format(month))
+            print('\nAlright, {} it is!'.format(month))
             break
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
